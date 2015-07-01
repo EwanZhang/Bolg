@@ -81,7 +81,7 @@ body>div {
     max-width: 50em;
     padding: 3em 3em 1.5em;
     margin: 3em auto;
-    background-color: #fafafa;
+    background-color: #fff;
     -moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
@@ -92,7 +92,7 @@ h1 {
     line-height: 28px;
     margin: 0 0 28px 0;
 	background-color: rgb(185, 34, 31);
-	color: #fafafa;
+	color: #fff;
 	display: inline-block;
 	padding: 12px;
 }
