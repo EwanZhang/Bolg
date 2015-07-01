@@ -16,7 +16,7 @@ ocserv需要3.1版以上的gnutls，gnutls需要2.7版以上的nettle
 
 首先保证系统里已安装openssl、gcc、make等常用软件
 
-1.安装编译环境及依赖，如部分软件不能安装请先安装epel源
+**1.安装编译环境及依赖，如部分软件不能安装请先安装epel源**
 
 `rpm -ivh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm1`
 
@@ -28,7 +28,7 @@ ocserv需要3.1版以上的gnutls，gnutls需要2.7版以上的nettle
 
 `yum install openssl openssl-devel`
 
-2.编译nettle
+**2.编译nettle**
 
 安装gmp
 
@@ -48,7 +48,7 @@ ocserv需要3.1版以上的gnutls，gnutls需要2.7版以上的nettle
 
 `install -v -m644 nettle.html /usr/share/doc/nettle-2.7.1`
 
-2、编译unbound
+**2、编译unbound**
 
 安装expat-devel
 
@@ -62,7 +62,7 @@ ocserv需要3.1版以上的gnutls，gnutls需要2.7版以上的nettle
 
 `mkdir -p /etc/unbound && unbound-anchor -a "/etc/unbound/root.key"`
 
-3、编译gnutls
+**3、编译gnutls**
 
 `wget ftp://ftp.gnutls.org/gcrypt/gnutls/v3.2/gnutls-3.2.12.1.tar.xz`
 
@@ -72,7 +72,7 @@ ocserv需要3.1版以上的gnutls，gnutls需要2.7版以上的nettle
 
 `./configure --prefix=/usr && make && make install`
 
-4、编译ocserv
+**4、编译ocserv**
 
 `wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.10.5.tar.xz`
 
@@ -91,7 +91,7 @@ ocserv需要3.1版以上的gnutls，gnutls需要2.7版以上的nettle
 
 `./configure && make && make install`
 
-5、配置ocserv
+**5、配置ocserv**
 
 创建ca证书和服务器证书（参考http://www.infradead.org/ocserv/manual.html#heading5）
 
