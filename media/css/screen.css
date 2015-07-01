@@ -85,7 +85,7 @@ body>div {
     -moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
-    border-top: 6px solid #EE0000;
+    border-top: 6px solid ##B9221F;
 }
 h1 {
     font-size: 28px;
@@ -161,7 +161,7 @@ hr {
     margin: 0 0 22px 0;
 }
 a {
-    color: #EE0000;
+    color: #B9221F;
 	text-decoration: none;
 }
 a:visited {
@@ -174,7 +174,7 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #EE0000;
+    color: #B9221F;
 }
 em {
     font-style: italic;
