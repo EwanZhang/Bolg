@@ -23,10 +23,10 @@ DNSPOD支持这个功能，免费用户可以 按电信、联通、教育网、�
 `git clone https://github.com/EwanZhang/EwanZhang.github.io.git ./mydomain.com`
 
 **定时更新博客代码**  
-配置crontab 2分钟pull一下代码：
+配置crontab 2分钟pull一下代码：  
 `crontab -e `
 
-`# 添加下面的代码：`
+`# 添加下面的代码：`  
 `*/2 * * * * cd ~/mydomain.com/; git pull >> /tmp/github_blog_pull_record.log 2>&1;`
 
 Jekyll默认的markdown解析器maruku对中文支持不够完善，所以换成RDiscount解析器
