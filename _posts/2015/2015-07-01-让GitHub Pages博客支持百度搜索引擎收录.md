@@ -15,7 +15,7 @@ DNSPOD支持这个功能，免费用户可以 按电信、联通、教育网、�
 
 环境：centos6
 
-首先安装[Jekyll](http://www.ewanzhang.com/2015/07/centos6%E5%AE%89%E8%A3%85Jekyll/)  
+首先[安装Jekyll](http://www.ewanzhang.com/2015/07/centos6%E5%AE%89%E8%A3%85Jekyll/)  
 
 **克隆博客代码**  
 `sudo yum install git`
@@ -43,7 +43,7 @@ jekyll serve --port 80 --host 192.168.1.101 --detach
 
 登录DNSPOD，进入域名解析的设置页面，添加一条针对百度的解析：
 
-![](/media/pic2015/2015-07-01-1.jpg)
+![](/media/pic2015/2015-07-01-1.jpg  =250x))
 
 
 参考原文链接：http://tabalt.net/blog/make-blog-support-baidu-search-engine/
