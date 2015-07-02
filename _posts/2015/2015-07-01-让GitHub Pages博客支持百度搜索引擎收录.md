@@ -43,7 +43,7 @@ jekyll serve --port 80 --host 192.168.1.101 --detach
 
 登录DNSPOD，进入域名解析的设置页面，添加一条针对百度的解析：
 
-![](/media/pic2015/2015-07-01-1.jpg  =250x))
+![](/media/pic2015/2015-07-01-1.jpg  =700x))
 
 
 参考原文链接：http://tabalt.net/blog/make-blog-support-baidu-search-engine/
