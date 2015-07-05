@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://EwanZhang.github.io
+author: Ewan Zhang
+pygments: true
+paginate: 24
